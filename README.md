@@ -2,6 +2,14 @@
 
 From scratch implementations of **Principal Component Analysis (PCA)** (diminsionality reduction) and **K-Means** (classification) unsupervised learning algorithms in python, using human face images from https://www.kaggle.com/competitions/11785-spring2021-hw2p2s1-face-classification/data
 
+# Preparation:
+images.zip found in "data" directory contains 10 directories, each containing 50 human face images. Thus, we have 500 observations to classify.
+Every image, after being loaded, is grayscaled using PIL's Image module and converted into a numpy array (function: **grayscale_and_convert_to_nparray**).
+
+# Using PCA and K-Means implementation:
+• PCA class constructor takes 1 argument (**n_components**), which corresponds to the number of principal components the user wishes to employ in order to transform the data into a lower dimension.
+
+• kmeans class constructor takes 2 arguments. The first argument (**k**) is the number of clusters the user wishes to partition the 500 observations into. The second argument (**init**), specifies the initialization tecnique used to obtain the first centroids before entering the actual classification process. The 2 options are kmeans++ and random initialization. In order to use the first option, simply pass "kmeans++" as second actual parameter (init="kmeans++"). Any other string passed as second parameter will initialize centroids randomly.
 
 # Visualizing the clusters:
 After reducing the dataset's dimension to 2 for the sake of visualization using PCA, we have the following results:
