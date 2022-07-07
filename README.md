@@ -17,7 +17,7 @@ To achieve that, simply pass **'1'** as actual parameter in img.convert() functi
 
 ![test_gray](https://user-images.githubusercontent.com/48795138/177875850-606213f1-55c7-4eb8-b8bd-a38e788fbf89.jpg)
 
-• After converting to bi-level:
+• After bi-leveling:
 
 ![ggg](https://user-images.githubusercontent.com/48795138/177879103-af7f4c5f-7e47-4e86-9ad7-719c34644a87.jpg)
 
