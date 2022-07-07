@@ -7,9 +7,11 @@ images.zip found in "data" directory contains 10 directories, each containing 50
 Every image, after being loaded, is grayscaled using PIL's Image module and converted into a numpy array (function: **grayscale_and_convert_to_nparray**).
 
 • Before grayscale:
+
 ![0257_01](https://user-images.githubusercontent.com/48795138/177875797-334eec48-1332-4ba3-80c8-8455011dbd71.jpg)
 
 • After grayscale:
+
 ![test_gray](https://user-images.githubusercontent.com/48795138/177875850-606213f1-55c7-4eb8-b8bd-a38e788fbf89.jpg)
 
 
