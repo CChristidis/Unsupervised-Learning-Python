@@ -1,6 +1,6 @@
 # About:
 
-From scratch implementations of **Principal Component Analysis (PCA)** (diminsionality reduction) and **K-Means** (classification) unsupervised learning algorithms in python, using human face images from https://www.kaggle.com/competitions/11785-spring2021-hw2p2s1-face-classification/data
+From scratch implementations of **Principal Component Analysis (PCA)** (dimensionality reduction) and **K-Means** (classification) unsupervised learning algorithms in python, using human face images from https://www.kaggle.com/competitions/11785-spring2021-hw2p2s1-face-classification/data
 
 # Preparation:
 images.zip found in "data" directory contains 10 directories, each containing 50 human face images. Thus, we have 500 observations to classify.
