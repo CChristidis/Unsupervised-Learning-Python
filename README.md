@@ -29,6 +29,14 @@ To achieve that, simply pass **'1'** as actual parameter in img.convert() functi
 
 • kmeans class constructor takes 2 arguments. The first argument (**k**) is the number of clusters the user wishes to partition the 500 observations into. The second argument (**init**), specifies the initialization technique used to obtain the first centroids before entering the actual classification process. The 2 options are kmeans++ (maxmin) and random initialization. In order to use the first option, simply pass "kmeans++" as second actual parameter (init="kmeans++"). Any other string passed as second parameter will initialize centroids randomly.
 
+# Visualizing the dimensionality reduction (using SVD):
+
+• Initial image (d = 4096):
+
+![d4096](https://user-images.githubusercontent.com/48795138/178166196-34f709f2-a328-4cb9-9f38-4aa49cf60841.jpg)
+
+
+
 # Visualizing the clusters:
 After reducing the dataset's dimension to 2 for the sake of visualization using PCA, we have the following results:
 ![b_plot_3](https://user-images.githubusercontent.com/48795138/177870030-aacdc6be-a508-469c-89e1-36f55dfd46f6.jpg)
