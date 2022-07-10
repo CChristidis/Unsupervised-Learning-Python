@@ -35,7 +35,11 @@ To achieve that, simply pass **'1'** as actual parameter in img.convert() functi
 
 ![d4096](https://user-images.githubusercontent.com/48795138/178166196-34f709f2-a328-4cb9-9f38-4aa49cf60841.jpg)
 
+• Reduced to d = 250 dimensions:
 
+![d250](https://user-images.githubusercontent.com/48795138/178166212-41a0d626-8624-4391-b4ed-5f55a388993d.jpg)
+
+• Reduced to d = 250 dimensions:
 
 # Visualizing the clusters:
 After reducing the dataset's dimension to 2 for the sake of visualization using PCA, we have the following results:
