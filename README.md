@@ -2,7 +2,7 @@
 
 From scratch implementations of **Principal Component Analysis (PCA)** (dimensionality reduction) and **K-Means** (classification) unsupervised learning algorithms in python, using human face images from https://www.kaggle.com/competitions/11785-spring2021-hw2p2s1-face-classification/data
 
-You can also find an implementation of **Singular Value Decomposition** (SVD) that can be employed in cooperation with PCA or used instead of PCA to obtain dimensionality reduction.
+You can also find an implementation of **Singular Value Decomposition (SVD)** that can be employed in cooperation with PCA or used instead of PCA to obtain dimensionality reduction.
 
 # Preparation:
 images.zip found in "data" directory contains 10 directories, each containing 50 human face images. Thus, we have 500 observations to classify.
