@@ -11,7 +11,7 @@ Every image, after being loaded, is grayscaled using PIL's Image module and conv
 Note that you can transform the images into bi-level representation instead of grayscaling them, which yields even better classification results.
 To achieve that, simply pass **'1'** as actual parameter in img.convert() function (function: **grayscale_and_convert_to_nparray**) instead of **'L'**.
 
-• Before grayscale:
+• Original image:
 
 ![0257_01](https://user-images.githubusercontent.com/48795138/177875797-334eec48-1332-4ba3-80c8-8455011dbd71.jpg)
 
