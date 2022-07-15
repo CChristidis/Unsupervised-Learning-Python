@@ -8,7 +8,7 @@ You can also find an implementation of **Singular Value Decomposition (SVD)** th
 images.zip found in "data" directory contains 10 directories, each containing 50 human face images. Thus, we have 500 observations to classify.
 Every image, after being loaded, is grayscaled using PIL's Image module and converted into a numpy array (function: **grayscale_and_convert_to_nparray**).
 
-Note that you can transform image into bi-level representation instead of grayscaling it, which yields even better classification results.
+Note that you can transform the images into bi-level representation instead of grayscaling it, which yields even better classification results.
 To achieve that, simply pass **'1'** as actual parameter in img.convert() function (function: **grayscale_and_convert_to_nparray**) instead of **'L'**.
 
 • Before grayscale:
